@@ -67,3 +67,6 @@ footer{
 footer p{
     text-align: center;
 }
+#precio1, #precio2, #precio3{
+    overflow: hidden;
+}

@@ -11,9 +11,9 @@
     <header>
         <h1>MANACO</h1>
         <nav>
-            <a href="#" >Inicio</a>&nbsp;
-            <a href="#" >Servicios</a>&nbsp;
-            <a href="#" >Contacto</a>&nbsp;
+            <a href="#" tabindex="2">Inicio</a>&nbsp;
+            <a href="#" tabindex="3">Servicios</a>&nbsp;
+            <a href="#" tabindex="4">Contacto</a>&nbsp;
         </nav>
     </header>
     <main>
@@ -23,19 +23,19 @@
         <h1>Productos</h1>
         <section class="container">
                 <article class="producto">
-                        <img src="" alt="producto 1" srcset=""><br>
-                        <span>producto 1 <br>$00.00</span>
-                        <button type="submit">Comprar</button>
+                    <img src="manaco1.jpg" alt="producto 1"><br>
+                    <span>producto 1 <br><div id="precio 1">$00.00</div></span>
+                    <button tabindex="-1" aria-label="añadiendo al carrito de compras" aria-describedby="precio1">Comprar</button>
                 </article>
                 <article class="producto">
-                    <img src="" alt="producto 2" srcset=""><br>
-                    <span>producto 2 <br>$00.00</span>
-                    <button type="submit">Comprar</button>
+                    <img src="manaco2.jpg" alt="producto 2"><br>
+                    <span>producto 2 <br><div id="precio 2">$00.00</div></span>
+                    <button tabindex="0" aria-label="añadiendo al carrito de compras" aria-describedby="precio2">Comprar</button>
                 </article>
                 <article class="producto">
-                    <img src="" alt="producto 3" srcset=""><br>
-                    <span>producto 3 <br>$00.00</span>
-                    <button type="submit">Comprar</button>
+                    <img src="manaco3.jpg" alt="producto 3"><br>
+                    <span>producto 3 <br><div id="precio 3">$00.00</div></span>
+                    <button tabindex="1" aria-label="añadiendo al carrito de compras" aria-describedby="precio3">Comprar</button>
                 </article>
         </section>
     </main>
